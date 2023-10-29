@@ -1,5 +1,5 @@
 
-print (" Welcome to Redwan's Python made calculator ")
+
 
 # Function to add two numbers  
 def add(num1, num2): 
