@@ -20,6 +20,7 @@ def divide(num1, num2):
 # Function  to raise a power like 2 sqr 5
 def raisePower(x, y):
    return x ** y
+# Function to find modulus    
 def modulus(x,y):
     return x%y
 
