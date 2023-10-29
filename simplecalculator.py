@@ -20,6 +20,8 @@ def divide(num1, num2):
 # Function  to raise a power like 2 sqr 5
 def raisePower(x, y):
    return x ** y
+def modulus(x,y):
+    return x%y
 
 print("Operation to perform:")
 print("1. Addition")
@@ -27,7 +29,7 @@ print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
 print("5. Raising a power to number Like 2 sqr 5")
-
+print("6. Modulus")
 choice = input("Enter choice: ")
 
 num1 = int(input("Enter first number: "))
@@ -47,6 +49,7 @@ elif choice == '4':
 
 elif choice == '5':
    print(num1, "**", num2, "=", raisePower(num1, num2))
-
+elif choice == '6':
+   print(num1, "%", num2, "=", modulus(num1, num2))
 else:
    print("Please select a valid input.")
